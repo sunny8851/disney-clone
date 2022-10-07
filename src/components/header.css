@@ -1,0 +1,57 @@
+.header:hover {
+  /* content: "";
+  height: 5px;
+  background: wheat;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px; */
+  border-bottom: 2px solid white;
+}
+.icon {
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+    rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+  cursor: pointer;
+}
+.scr::-webkit-scrollbar {
+  display: none;
+}
+.icon:hover {
+  transform: scale(1.1);
+  border-color: rgba(249, 249, 249, 0.8);
+}
+.detailbutton:hover {
+  background: rgb(198, 198, 198);
+}
+.cards {
+  display: inline-block;
+  transition: transform 0.2s;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0.19rem;
+  cursor: pointer;
+  min-width: 200px;
+  height: 300px;
+  z-index: 0;
+  border: 1px solid rgb(99, 99, 99);
+}
+.detailbutton1:hover {
+  background: rgb(198, 198, 198);
+}
+.detailbutton1 {
+  background: rgba(0, 0, 0, 0.3);
+}
+.login::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  background-size: cover;
+  bottom: 0;
+  background-repeat: no-repeat;
+  left: 0;
+  z-index: -1;
+  right: 0;
+  opacity: 0.8;
+  background-image: url("../images/loginbackground.jpg");
+}
